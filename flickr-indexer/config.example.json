@@ -1,0 +1,20 @@
+{
+    "api_key": "API_KEY_HERE",
+    "api_secret": "API_SECRET_HERE",
+    "out_path": "out",
+    "result_limit": 1000,
+    "queries": {
+        "query1": [{
+            "group_name": "something"
+        }],
+        "query2": [
+            {
+                "group_id": "123@N12",
+                "text": "foo"
+            },
+            {
+                "text": "bar"
+            }
+        ]
+    }
+}
