@@ -1,0 +1,19 @@
+[package]
+name = "copostr"
+description = "simple cohost bot for posting images periodically"
+authors = ["abi-the-cat <dev@sn3p.ca>"]
+version = "0.1.0"
+edition = "2021"
+license = "BSD-2-Clause"
+repository = "https://github.com/abi-the-cat/copostr"
+
+[dependencies]
+bytes = "1.2.1"
+clap = { version = "4.0.23", features = ["derive"] }
+dotenv = "0.15.0"
+eggbug = "0.1.3"
+env_logger = "0.9.3"
+log = "0.4.17"
+reqwest = "0.11.12"
+rusqlite = { version = "0.28.0", features = ["bundled"] }
+tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
